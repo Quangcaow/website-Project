@@ -514,9 +514,14 @@ footer{
         width: 100%;
     }
 
+    fieldset > * {
+        flex: 1 0 10rem;
+    }
+
     
     .wrapper{
     width: 90vw;
+    padding: 10px;
     }
 
     .wrapper div:nth-child(1) {
@@ -591,7 +596,10 @@ footer{
 
   
   @media only screen and (max-width: 450px) {
-    
+    body{
+        padding:0;
+        width:90%;
+    }
     .cv{
         display: block;
         margin: 0 auto;
